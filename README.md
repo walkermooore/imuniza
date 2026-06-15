@@ -1,37 +1,105 @@
-# Imuniza — Sistema de Gestão de Vacinação
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00b4d8&height=300&section=header&text=Imuniza&fontSize=90&animation=fadeIn&fontAlignY=38" />
+</p>
 
-Bem-vindo ao repositório do **Imuniza**, uma solução completa para o controle e rastreabilidade de frascos de vacinas em unidades de saúde.
+<p align="center">
+  <a href="#-sobre">Sobre</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-estrutura">Estrutura</a> •
+  <a href="#-guia-de-uso">Guia de Uso</a>
+</p>
 
-Este projeto foi desenvolvido com uma arquitetura moderna e escalável, utilizando **TypeScript** em todo o ecossistema para garantir robustez e segurança nos dados.
-
----
-
-## 📂 Estrutura do Projeto
-
-O repositório está organizado em uma estrutura de monorepo simplificada para facilitar o desenvolvimento e a manutenção:
-
-### 🖥️ [Frontend](./frontend)
-Interface web desenvolvida com **React 19** e **Vite**. 
-- Focada na experiência do usuário (UX) para profissionais de saúde.
-- Design responsivo com **Tailwind CSS** e **shadcn/ui**.
-- Gerenciamento de estado global com **Zustand**.
-- Navegação otimizada com **TanStack Router**.
-
-### ⚙️ [Backend](./backend)
-API REST robusta construída com **Node.js 20**.
-- Arquitetura baseada nos princípios de **Clean Architecture**.
-- Banco de dados relacional **PostgreSQL 15+**.
-- Autenticação segura via **JWT** e criptografia de senhas com **bcrypt**.
-- Documentação automática dos endpoints através do **Swagger (OpenAPI)**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
 ---
 
-## 🚀 Como iniciar
+## 📝 Sobre
 
-Para rodar o projeto localmente, você deve configurar cada parte separadamente. Siga as instruções detalhadas nos arquivos README de cada diretório:
-
-1.  **Configuração do Banco de Dados**: Utilize os scripts SQL em `backend/database/`.
-2.  **Configuração do Backend**: Veja o [README do Backend](./backend/README.md).
-3.  **Configuração do Frontend**: Veja o [README do Frontend](./frontend/README.md).
+O **Imuniza** é uma plataforma inteligente focada na **gestão, rastreabilidade e otimização** do estoque de vacinas. Desenvolvido para unidades de saúde, o sistema atua na prevenção ativa contra desperdícios, garantindo que cada frasco seja utilizado em seu potencial máximo e que todas as movimentações sejam auditáveis.
 
 ---
+
+## ✨ Funcionalidades
+
+| 🛡️ Segurança | 📊 Gestão | 🚀 Agilidade |
+| :--- | :--- | :--- |
+| **Alerta Anti-Desperdício**: Impede abertura de frascos redundantes. | **Rastreabilidade**: Ciclo de vida completo do lote ao descarte. | **Bulk Operations**: Processamento em massa para campanhas. |
+| **Auditoria**: Log imutável de todas as ações no sistema. | **Transferências**: Movimentação segura entre unidades de saúde. | **Interface Intuitiva**: Dashboard focado na produtividade do técnico. |
+
+---
+
+## 🛠 Tecnologias
+
+<table>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js" />
+      <br>Node.js
+    </td>
+    <td align="center" width="120">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40" alt="React" />
+      <br>React 19
+    </td>
+    <td align="center" width="120">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="120">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL" />
+      <br>PostgreSQL
+    </td>
+    <td align="center" width="120">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg" width="40" height="40" alt="Tailwind" />
+      <br>Tailwind
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📂 Estrutura do Ecossistema
+
+```mermaid
+graph TD
+    A[Root] --> B[Backend - Node.js/Clean Arch]
+    A --> C[Frontend - React/Vite]
+    B --> D[(PostgreSQL DB)]
+    C --> B
+```
+
+- 📂 **[backend](./backend)**: API robusta com Clean Architecture e Swagger.
+- 📂 **[frontend](./frontend)**: Portal do usuário moderno com React 19 e shadcn/ui.
+
+---
+
+## 🚀 Guia de Uso
+
+### 🗄️ 1. Banco de Dados
+Execute os scripts SQL localizados em `backend/database/` na ordem numérica.
+
+### ⚙️ 2. Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### 🖥️ 3. Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+<p align="center">
+  <img src="./frontend/public/logo.svg" width="50" height="50" />
+  <br>
+  Desenvolvido com ❤️ para a saúde pública.
+</p>
