@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60b53839-20d2-4f79-8716-8de8c312884c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/01-ddl/01-core.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/02-data/01-system-parameters.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/02-data/02-notification-event-configs.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/02-data/03-reasons.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/02-data/04-locations-and-rooms.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/database/02-data/05-laboratories-and-vaccines.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/services/NotificationDispatchService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/AssignManagerLocationUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/AssignTechnicianRoomUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CancelBottleDiscardUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CancelBottleOpeningUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBatchRoomEntryUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBatchTransferUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBatchUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBottleDiscardReasonUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBottleDiscardUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBottleOpeningReasonUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBottleOpeningUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBulkBottleDiscardUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateBulkBottleOpeningUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateLaboratoryUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateLocationUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateNotificationLocationOverrideUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateUserUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateVaccineRoomUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/CreateVaccineUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteBatchRoomEntryUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteBatchUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteBottleDiscardReasonUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteBottleOpeningReasonUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteLaboratoryUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteLocationUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteNotificationLocationOverrideUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteUserUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteVaccineRoomUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/DeleteVaccineUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBatchByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBatchRoomEntryByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBatchTransferByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBottleDiscardByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBottleDiscardReasonByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBottleOpeningByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBottleOpeningReasonByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBulkBottleDiscardByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetBulkBottleOpeningByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetLaboratoryByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetLocationByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetManagerLocationByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetSystemParameterUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetTechnicianRoomByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetUserByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetVaccineByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/GetVaccineRoomByIdUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBatchRoomEntriesUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBatchTransfersUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBatchesUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBottleDiscardReasonsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBottleDiscardsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBottleOpeningReasonsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBottleOpeningsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBulkBottleDiscardsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListBulkBottleOpeningsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListLaboratoriesUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListLocationsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListManagerLocationsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListNotificationEventConfigsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListNotificationLocationOverridesUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListNotificationsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListSystemParametersUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListTechnicianRoomsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListUsersUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListVaccineRoomsUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ListVaccinesUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/LoginUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/MarkAllNotificationsReadUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/MarkNotificationReadUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/RemoveManagerLocationUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/RemoveTechnicianRoomUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/ResolveBatchTransferUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateBatchUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateBottleDiscardReasonUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateBottleOpeningReasonUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateLaboratoryUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateLocationUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateNotificationEventConfigUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateNotificationLocationOverrideUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateSystemParameterUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateUserUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateVaccineRoomUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/application/usecases/UpdateVaccineUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/Batch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BatchRoomEntry.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BatchTransfer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BottleDiscard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BottleDiscardReason.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BottleOpening.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BottleOpeningReason.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BulkBottleDiscard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/BulkBottleOpening.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/Laboratory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/Location.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/ManagerLocation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/Notification.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/NotificationEventConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/NotificationLocationOverride.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/SystemParameter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/TechnicianRoom.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/Vaccine.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/entities/VaccineRoom.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/errors/ForbiddenError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/errors/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBatchRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBatchRoomEntryRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBatchTransferRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBottleDiscardReasonRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBottleDiscardRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBottleOpeningReasonRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBottleOpeningRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBulkBottleDiscardRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IBulkBottleOpeningRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/ILaboratoryRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/ILocationRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IManagerLocationRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/INotificationEventConfigRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/INotificationLocationOverrideRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/INotificationRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/ISystemParameterRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/ITechnicianRoomRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IUserRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IVaccineRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/repositories/IVaccineRoomRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/services/INotificationDispatchService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/services/IPasswordService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/services/IRateLimiterService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/services/ITokenService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/services/PermissionService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/domain/shared/Pagination.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/database/connection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBatchRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBatchRoomEntryRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBatchTransferRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBottleDiscardReasonRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBottleDiscardRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBottleOpeningReasonRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBottleOpeningRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBulkBottleDiscardRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgBulkBottleOpeningRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgLaboratoryRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgLocationRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgManagerLocationRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgNotificationEventConfigRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgNotificationLocationOverrideRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgNotificationRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgSystemParameterRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgTechnicianRoomRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgUserRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgVaccineRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/PgVaccineRoomRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/repositories/utils/search.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/services/BcryptPasswordService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/services/InMemoryRateLimiterService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/infrastructure/services/JwtTokenService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/helpers/response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/middlewares/authMiddleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/middlewares/rateLimitMiddleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/middlewares/roleGuard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/authRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/batchRoomEntryRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/batchRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/batchTransferRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/bottleDiscardReasonRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/bottleDiscardRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/bottleOpeningReasonRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/bottleOpeningRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/bulkBottleDiscardRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/bulkBottleOpeningRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/laboratoryRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/locationRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/managerLocationRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/notificationEventConfigRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/notificationLocationOverrideRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/notificationRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/schemas/listQuery.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/systemParameterRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/technicianRoomRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/userRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/vaccineRoomRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/interface/routes/vaccineRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/config/env.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/scripts/generate-password-hash.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/swagger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nixpacks.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/layouts/AuthLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/AberturasPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/DashboardPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/DescartesPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/DisponibilidadeInternaPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/DisponibilidadePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/DisponibilidadeUbsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/EquipePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/LocaisPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/LotesPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/MonitoramentoPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/MotivosAberturaPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/MotivosDescartePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/ParametrosPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/SalasPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/UsuariosPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/pages/VacinasPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/CreateBatchWizard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/DevRibbon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/layout/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/layout/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/async-combobox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/badge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/date-input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/date-picker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/field.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/label.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/scroll-area.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/separator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/sheet.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/tabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/toast.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/toaster.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ui/use-toast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useTableSort.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useVaccineRooms.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/api-client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/pagination.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/stores/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/stores/sidebar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FB8EtD7lQ35foeggFB8yOzLuJ3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/walker/projetos/codebase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PS-261.22158.283" />
+        <option value="bundled-php-predefined-a98d8de5180a-a9a4ea3ee0f4-com.jetbrains.php.sharedIndexes-PS-261.22158.283" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60b53839-20d2-4f79-8716-8de8c312884c" name="Changes" comment="" />
+      <created>1781536994560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781536994560</updated>
+      <workItem from="1781536995747" duration="931000" />
+      <workItem from="1781538148720" duration="1297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

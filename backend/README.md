@@ -1,6 +1,6 @@
-# ImunizeMe — Servidor de Gerenciamento de Imunizantes
+# Imuniza — Servidor de Gerenciamento de Imunizantes
 
-Este é o componente de backend do ecossistema ImunizeMe, uma solução em Node.js e PostgreSQL focada no monitoramento rigoroso de estoques de vacinas, desde a entrada do lote até o descarte final de cada frasco.
+Este é o componente de backend do ecossistema Imuniza, uma solução em Node.js e PostgreSQL focada no monitoramento rigoroso de estoques de vacinas, desde a entrada do lote até o descarte final de cada frasco.
 
 ---
 

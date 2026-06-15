@@ -1,12 +1,12 @@
-# ImunizeMe — Portal do Usuário e Gestão
+# Imuniza — Portal do Usuário e Gestão
 
-Frontend do sistema ImunizeMe, desenvolvido para fornecer uma interface ágil e moderna aos profissionais de saúde e transparência à população sobre a disponibilidade de vacinas.
+Frontend do sistema Imuniza, desenvolvido para fornecer uma interface ágil e moderna aos profissionais de saúde e transparência à população sobre a disponibilidade de vacinas.
 
 ---
 
 ## Visão Geral do Sistema
 
-O Portal ImunizeMe centraliza as operações do dia a dia das unidades de vacinação. Com foco em usabilidade, a interface permite gerenciar todo o ciclo de vida dos imunizantes, garantindo que o técnico em enfermagem tenha as informações necessárias para evitar desperdícios.
+O Portal Imuniza centraliza as operações do dia a dia das unidades de vacinação. Com foco em usabilidade, a interface permite gerenciar todo o ciclo de vida dos imunizantes, garantindo que o técnico em enfermagem tenha as informações necessárias para evitar desperdícios.
 
 ### Funcionalidades em Destaque
 - **Gestão de Operações**: Abertura e descarte de frascos com poucos cliques.
