@@ -35,10 +35,3 @@ Para rodar o projeto localmente, você deve configurar cada parte separadamente.
 3.  **Configuração do Frontend**: Veja o [README do Frontend](./frontend/README.md).
 
 ---
-
-## 🛡️ Licença
-
-Este projeto está licenciado sob a **Licença MIT**. Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
----
-Desenvolvido com foco em eficiência, segurança e transparência na saúde pública.
