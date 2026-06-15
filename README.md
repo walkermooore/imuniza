@@ -11,9 +11,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Vers%C3%A3o-1.0.0-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
 ---
@@ -96,10 +95,3 @@ npm install
 npm run dev
 ```
 
----
-
-<p align="center">
-  <img src="./frontend/public/logo.svg" width="50" height="50" />
-  <br>
-  Desenvolvido com ❤️ para a saúde pública.
-</p>
